@@ -3,7 +3,8 @@
 ## Title: Bank Marketing Dataset (Predicting Term Deposit Subscriptions)
 
 
-### 1.주제 선정 이유 및 목표
+
+### 1. 주제 선정 이유 및 목표
 
 - **Telemarketing** is a method of direct marketing to advertise or sell of goods or services by phone.
 
@@ -13,7 +14,7 @@
 
 
 
-### 2.데이터 처리 및 중요한 열 추출
+### 2. 데이터 처리 및 중요한 열 추출
 
 - 데이터 처리 예
 
@@ -33,7 +34,7 @@
 
 
 
-### 3.결과
+### 3. 결과
 
 - 특정 열을 선택하여 딥러닝한 결과
 
