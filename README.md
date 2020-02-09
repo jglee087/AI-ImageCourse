@@ -1,6 +1,6 @@
 # AI-ImageCourse
 
-## AI 이미지 과정에서 진행한 semi project 모음
+## AI 이미지 과정에서 진행한 수업 내용들
 
 ### Part 1. Python
 ### Part 2. Pandas
