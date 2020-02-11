@@ -8,7 +8,7 @@
 ### Part 4. Machine Learning
 ### Part 5. Deep Learning
 ### Part 6. CNN
-### Part 7.
+### Part 7. Django
 
 ### SemiProject 1 이미지분석 기업 정보 제공
 ### SemiProject 2 타이타닉 승객 정보를 이용한 생존자 예측
