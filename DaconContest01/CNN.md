@@ -10,7 +10,7 @@ Object detection은 머신 러닝 관련 지식 뿐만 아니라, 컴퓨터 비�
 
 ### R-CNN(Regions with CNN features)
 
-Selective Search
+**Selective Search**
 
 R-CNN 알고리즘이 발표되기 이전에 대부분 object dectection에 주로 사용되던 방법은 SIFT나 HOG에 기반한 알고리즘이었다. SIFT나 HOG는 대부분 영상 내에 존재하는 gradient 성분을 일정 영역으로 나누고 그 경향성을 이용하여 대상을 검출하는 방식을 사용한다.
 
