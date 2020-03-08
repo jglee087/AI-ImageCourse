@@ -18,19 +18,19 @@
 
 - 데이터 처리 예
 
-![](C:\Users\jungg\Documents\GitHub\AI-ImageCourse\SemiProject 3\img\2.png)
+![](./img/2.png)
 
 
 
 - 피어슨 상관 관계로 부터 중요한 열 추출
 
-![3](C:\Users\jungg\Documents\GitHub\AI-ImageCourse\SemiProject 3\img\3.png)
+![3](./img/3.png)
 
 
 
 - 머신러닝을 활용해 특징 중요도 추출
 
-![7](C:\Users\jungg\Documents\GitHub\AI-ImageCourse\SemiProject 3\img\4.png)
+![7](./img/4.png)
 
 
 
@@ -38,10 +38,10 @@
 
 - 특정 열을 선택하여 딥러닝한 결과
 
-![4](C:\Users\jungg\Documents\GitHub\AI-ImageCourse\SemiProject 3\img\6.png)
+![4](./img/6.png)
 
 
 
 - 딥러닝 모델을 사용한 정확도와 ROC Curve
 
-![5](C:\Users\jungg\Documents\GitHub\AI-ImageCourse\SemiProject 3\img\5.png)
+![5](./img/5.png)
