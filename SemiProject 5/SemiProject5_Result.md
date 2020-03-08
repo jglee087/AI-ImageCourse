@@ -17,7 +17,7 @@
 
 3. LSTM(Long-Short Term Memory)모델을 사용하여 주가 예측
 4. DNN ensemble 모델을 사용하여 주가 예측
-5. LSTM ensemble 모델을 사용하여 주가 예측
+5. LSTM ensemble 모델을 사용하여 주가 예측(https://github.com/jglee087/AI-ImageCourse/blob/master/SemiProject%205/samsung04_ensemble.py)  
 6. 20일치 데이터를 시계열 데이터로 묶어 LSTM 모델에 적용
 
 
