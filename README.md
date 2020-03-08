@@ -10,10 +10,19 @@
 ### Part 7. Django   
 #  
 ### SemiProject 1 이미지분석 기업 정보 제공
-https://github.com/jglee087/AI-ImageCourse/blob/master/SemiProject%201/SemiProject1_Result.md
-### SemiProject 2 타이타닉 승객 정보를 이용한 생존자 예측
-### SemiProject 3 Bank Marketing Dataset
-### SemiProject 4 CNN을 사용하여 영화 속 등장 인물 식별
-### SemiProject 5 삼성전자 주가와 KOSPI200을 사용하여 2020년 2월 3일 삼성전자 종가 예측
-### SemiProject 6 Django를 이용한 MNIST 모델을 사용하여 숫자 예측  
+https://github.com/jglee087/AI-ImageCourse/blob/master/SemiProject%201/SemiProject1_Result.md  
 
+### SemiProject 2 타이타닉 승객 정보를 이용한 생존자 예측
+https://github.com/jglee087/AI-ImageCourse/blob/master/SemiProject%202/SemiProject2_Result.md  
+
+### SemiProject 3 Bank Marketing Dataset
+https://github.com/jglee087/AI-ImageCourse/blob/master/SemiProject%203/SemiProject3_Result.md  
+
+### SemiProject 4 CNN을 사용하여 영화 속 등장 인물 식별
+https://github.com/jglee087/AI-ImageCourse/blob/master/SemiProject%204/SemiProject4_Result.md  
+
+### SemiProject 5 삼성전자 주가와 KOSPI200을 사용하여 2020년 2월 3일 삼성전자 종가 예측
+https://github.com/jglee087/AI-ImageCourse/blob/master/SemiProject%205/SemiProject5_Result.md  
+
+### SemiProject 6 Django를 이용한 MNIST 모델을 사용하여 숫자 예측  
+https://github.com/jglee087/AI-ImageCourse/tree/master/SemiProject%206  
