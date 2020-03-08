@@ -9,14 +9,12 @@
 - 학습된 모델을 영화에 적용한다. 영화 속에서 인물 등장 시 학습된 이미지와 일치하면 이름을 출력하고 그 인물을 추적한다.
 
 
-
 ### 2. 이미지를 얻기 위한 사전 작업
 
-1. **이미지 크롤링**하여 이미지 획득(GoogleImageCrawling.ipynb 파일 참고)
-
-2. 크롤링하여 얻은 이미지에서 **얼굴 사진 추출**(ImageExtraction.ipynb 파일 참고)
-3. 얼굴 사진을 읽어 **CNN을 사용하여 이미지 학습**하고 모델 저장(ReadImageApplyCNN.ipynb 파일 참고)
-4. 저장된 모델을 불러와서 동영상을 재생시켜 가면서 학습된 이미지가 영상에 나오는지 확인하고 **추적하고 등장시 이미지 파일로 저장**(ReadModelandImageSave.ipynb 참고)
+1. **이미지 크롤링**하여 이미지 획득(https://github.com/jglee087/AI-ImageCourse/blob/master/SemiProject%204/1.%20GoogleImageCrawling.ipynb)
+2. 크롤링하여 얻은 이미지에서 **얼굴 사진 추출**(https://github.com/jglee087/AI-ImageCourse/blob/master/SemiProject%204/2.%20ImageExtraction.ipynb)
+3. 얼굴 사진을 읽어 **CNN을 사용하여 이미지 학습**하고 모델 저장(https://github.com/jglee087/AI-ImageCourse/blob/master/SemiProject%204/3.%20ReadImageApplyCNN.ipynb)
+4. 저장된 모델을 불러와서 동영상을 재생시켜 가면서 학습된 이미지가 영상에 나오는지 확인하고 **추적하고 등장시 이미지 파일로 저장**(https://github.com/jglee087/AI-ImageCourse/blob/master/SemiProject%204/4.%20ReadModelandImageSave.ipynb)
 
 
 
