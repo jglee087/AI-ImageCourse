@@ -11,14 +11,12 @@
 
 ### 2. 방법
 
-1. kospi200.csv와 samsung.csv를 불러와서 DataFrame 형태로 저장하고 데이터 전처리를 하고 결과를 Numpy행렬로 저장
-
-2. DNN(Deep Neural Network)모델을 사용하여 주가 예측
-
-3. LSTM(Long-Short Term Memory)모델을 사용하여 주가 예측
-4. DNN ensemble 모델을 사용하여 주가 예측
+1. kospi200.csv와 samsung.csv를 불러와서 DataFrame 형태로 저장하고 데이터 전처리를 하고 결과를 Numpy행렬로 저장  
+2. DNN(Deep Neural Network)모델을 사용하여 주가 예측(https://github.com/jglee087/AI-ImageCourse/blob/master/SemiProject%205/samsung02_load.py)  
+3. LSTM(Long-Short Term Memory)모델을 사용하여 주가 예측  
+4. DNN ensemble 모델을 사용하여 주가 예측  
 5. LSTM ensemble 모델을 사용하여 주가 예측(https://github.com/jglee087/AI-ImageCourse/blob/master/SemiProject%205/samsung04_ensemble.py)  
-6. 20일치 데이터를 시계열 데이터로 묶어 LSTM 모델에 적용
+6. 20일치 데이터를 시계열 데이터로 묶어 LSTM 모델에 적용  
 
 
 
