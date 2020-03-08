@@ -50,4 +50,7 @@ https://github.com/jglee087/AI-ImageCourse/blob/master/SemiProject%205/SemiProje
 ### SemiProject 6 Django를 이용한 MNIST 모델을 사용하여 숫자 예측  
 https://github.com/jglee087/AI-ImageCourse/tree/master/SemiProject%206  
 
+### Keras
+Keras의 기본 문법, Regression과 Classification, DNN, RNN, LSTM, CNN과 기타 머신러닝 방법에 실용적이고 유용한 가이드
+
 ### FinalProject
