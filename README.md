@@ -10,6 +10,7 @@
 ### Part 7. Django   
 #  
 ### SemiProject 1 이미지분석 기업 정보 제공
+https://github.com/jglee087/AI-ImageCourse/blob/master/SemiProject%201/SemiProject1_Result.md
 ### SemiProject 2 타이타닉 승객 정보를 이용한 생존자 예측
 ### SemiProject 3 Bank Marketing Dataset
 ### SemiProject 4 CNN을 사용하여 영화 속 등장 인물 식별
