@@ -49,3 +49,5 @@ https://github.com/jglee087/AI-ImageCourse/blob/master/SemiProject%205/SemiProje
 
 ### SemiProject 6 Django를 이용한 MNIST 모델을 사용하여 숫자 예측  
 https://github.com/jglee087/AI-ImageCourse/tree/master/SemiProject%206  
+
+### FinalProject
