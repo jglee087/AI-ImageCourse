@@ -32,6 +32,10 @@
 ### Part 7. Django   
 - Make homepage with MNIST
 
+### Part 8. OpenCV
+- Image operation, contour, processing
+- Image transformation, morphological transformation, gradient and edge
+
 ### SemiProject 1 이미지분석 기업 정보 제공
 https://github.com/jglee087/AI-ImageCourse/blob/master/SemiProject%201/SemiProject1_Result.md  
 
