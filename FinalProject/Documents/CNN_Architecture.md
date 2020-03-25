@@ -206,6 +206,28 @@ VGGNet 모델부터 시작해서 네트워크의 깊이가 확 깊어짐
 
 
 
+![](../Image/DenseNet.png)
+
+장점
+
+1. Vanishing-gradient 문제 완화
+2. 더 강력한 피쳐 프로파게이션이 가능
+3. 피쳐 재사용을 촉진
+4. 파라미터의 수를 감소
+5. Regularlizing 효과와 Overfitting 감소
+
+
+
+![](../Image/DenseNet121.png)
+
+
+
+**Bottleneck layers**
+
+
+
+
+
 ## 8. Xception
 
 
@@ -231,3 +253,7 @@ https://arxiv.org/abs/1901.06032
 https://bskyvision.com/
 
 https://blog.naver.com/laonple/220643128255
+
+https://j911.me/2019/07/densenet.html
+
+https://datascienceschool.net/view-notebook/4ca30ffdf6c0407ab281284459982a25/
