@@ -174,6 +174,32 @@ VGGNet 모델부터 시작해서 네트워크의 깊이가 확 깊어짐
 
 
 
+![](../Image/DeepLayer.png)
+
+
+
+
+
+![](../Image/Residual.png)
+
+
+
+
+
+
+
+![](../Image/ResNet.png)
+
+
+
+
+
+![](../Image/ResNet_2.png)
+
+
+
+
+
 
 
 ## 7. DenseNet
