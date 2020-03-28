@@ -6,10 +6,6 @@
 
 
 
-
-
-
-
 ## 0. **ILSVRC**
 
 ILSVRC은 ImageNet Large Scale Visual Recognition Challenge의 약자로 이미지 인식 경진대회이다. 
@@ -130,6 +126,20 @@ AlexNet은 5개의 컨볼루션 레이어와 3개의 full-connected 레이어로
 
 
 
+![](../Image/ZFnet.png)
+
+
+
+AlexNet을 기반으로 첫 Conv layer의 filter size를 11에서 7로, stride를 4에서 2로 바꾸고, 그 뒤의 Conv layer들의 filter 개수를 키워주는 등(Conv3,4,5: 384, 384, 256 –> 512, 1024, 512) 약간의 튜닝을 거쳤으며 이 논문은 architecture에 집중하기 보다는, 학습이 진행됨에 따라 feature map을 시각화하는 방법과, 모델이 어느 영역을 보고 예측을 하는지 관찰하기 위한 Occlusion 기반의 attribution 기법 등 시각화 측면에 집중한 논문
+
+
+
+![](../Image/ZFnet2.png)
+
+
+
+
+
 ## 4. VGG16
 
 VGGNet 모델부터 시작해서 네트워크의 깊이가 확 깊어짐
@@ -137,6 +147,8 @@ VGGNet 모델부터 시작해서 네트워크의 깊이가 확 깊어짐
 
 
 ![](../Image/VGG16.png)
+
+
 
 
 
@@ -150,7 +162,27 @@ VGGNet 모델부터 시작해서 네트워크의 깊이가 확 깊어짐
 
 
 
+
+
+
+
+
+
+
+
 #### (1) **1 x 1 컨볼루션**
+
+![](../Image/1x1Conv.png)
+
+
+
+![](../Image/1x1Conv2.png)
+
+
+
+Bottleneck Structure
+
+dimension reduction
 
 
 
@@ -158,13 +190,35 @@ VGGNet 모델부터 시작해서 네트워크의 깊이가 확 깊어짐
 
 
 
-#### **(3) global average pooling**
+![](../Image/Inception2.png)
+
+
+
+![](../Image/Inception1.png)
+
+
+
+#### (3) global average pooling**
+
+
+
+![](../Image/GlobalPooling.png)
 
 
 
 #### **(4) auxiliary classifier**
 
 
+
+![](../Image/AuxClassifier.png)
+
+
+
+
+
+https://norman3.github.io/papers/docs/google_inception.html
+
+https://datascienceschool.net/notebook/ETC/
 
 
 
@@ -230,6 +284,10 @@ VGGNet 모델부터 시작해서 네트워크의 깊이가 확 깊어짐
 
 ## 8. Xception
 
+Depth-wise separable convolution
+
+ Inception은 연산량을 줄여 더 깊은 모델을 만들고자 했다고 하면 Xception은 이 모델의 prameter들을 더 효율적으로 사용하기위한 방법을 제시
+
 
 
 ## 9. Se-Network
@@ -257,3 +315,7 @@ https://blog.naver.com/laonple/220643128255
 https://j911.me/2019/07/densenet.html
 
 https://datascienceschool.net/view-notebook/4ca30ffdf6c0407ab281284459982a25/
+
+https://hichoe95.tistory.com/49
+
+https://hoya012.github.io/blog/deeplearning-classification-guidebook-2/
