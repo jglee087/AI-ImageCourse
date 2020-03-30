@@ -204,6 +204,8 @@ GoogLeNet의 목표
 
 
 
+
+
 ![](../Image/NIN.png)
 
 NIN에서는 convolution 커널 대신에 MLP를 사용
@@ -314,13 +316,18 @@ https://norman3.github.io/papers/docs/google_inception.html
 
 #### Convolution Factorization
 
-5x5 convolution은 3x3 convolution에 비해 더 넓은 영역에 걸쳐 있는 특징을 1번에 추출할 수 있지만, 25/9 = 2.78배 비싼 유닛이다. 이 5x5 convolution은 2단의 3x3 convolution을 사용해 구현이 가능하며, 이 경우는 free parameter의 수는 (9+9)로 5x5 convolution의25와 비교하면 28% 만큼 절감이 가능하다.
+5x5 convolution은 3x3 convolution에 비해 더 넓은 영역에 걸쳐 있는 특징을 1번에 추출할 수 있지만, 25/9 = 2.78배 비싼 유닛이다. 이 5x5 convolution은 2단의 3x3 convolution을 사용해 구현이 가능하며,
+이 경우는 free parameter의 수는 **18**(=9+9)로 5x5 convolution의 **25**와 비교하면 28% 만큼 절감이 가능
+
+
 
 아래 그림은 이 방식을 적용하여 원래의 Inception을 변형시킨 결과
 
 ![](../Image/ConvFactor1.png)
 
- 3x3 convolution을 1x3 convolution과 3x1 convolution으로 분해
+
+
+3x3 convolution을 1x3 convolution과 3x1 convolution으로 분해
 
 ![](../Image/ConvFactor2.png)
 
@@ -378,7 +385,7 @@ Inception_v3는 Inception_v2 를 만들고 나서 이를 이용해 이것저것 
 - **RMSProp** : Optimizer를 바꾼거다.
 - Label Smoothing
   - 논문에 자세히 나와있긴 한데 간단히 설명하자면 Target 값을 one-hot encoding을 사용하는 것이 아니라,
-  - 값이 0 인 레이블에 대해서도 아주 작은 값 ee 를 배분하고 정답은 대충 1−(n−1)∗e1−(n−1)∗e 로 값을 반영하는 것이다.
+  - 값이 0 인 레이블에 대해서도 아주 작은 값 e 를 배분하고 정답은 대충 1−(n−1)∗e1−(n−1)∗e 로 값을 반영하는 것이다.
 - Factorized 7-7
   - 이게 좀 아리까리한게 맨 앞단 conv 7x7 레이어를 (3x3)-(3x3) 2 레이어로 Factorization 한 것이라고 한다. 
 - BN-auxiliary
@@ -415,8 +422,6 @@ https://norman3.github.io/papers/docs/google_inception.html
 
 ##### Shortcut
 
-
-
 ![](../Image/Residual.png)
 
 1. 깊은 망도 쉽게 최적화 가능
@@ -441,8 +446,6 @@ https://norman3.github.io/papers/docs/google_inception.html
 
 
 **Deeper Bottleneck Architecture**
-
-
 
 차원을 줄였다가 뒤에서 차원을 늘리는 모습이 병목
 
