@@ -1,9 +1,3 @@
-
-
-이미지 분류 모델 평가에 사용되는 top-5 error와 top-1 error
-
-
-
 ## 0. **ILSVRC**
 
 ILSVRC은 ImageNet Large Scale Visual Recognition Challenge의 약자로 대용량의 이미지셋을 주고 이미지 인식 알고리즘의 성능을 평가하는 대회 이미지 인식 경진대회
@@ -567,6 +561,34 @@ Pruning, Compression 등 모델 경량화 기법들을 많이 사용하였지만
 
 ## 9. Xception
 
+https://www.slideshare.net/ssuser06e0c5/convolution-77257148
+
+https://www.slideshare.net/ssuser6135a1/ss-106656779
+
+
+
+- **Depthwise Convolution**
+
+![](../Image/DepthwiseConv.png)
+
+
+
+- **Depthwise Seperable Convolution**
+
+  ![](../Image/DepthwiseSepeConv.png)
+
+
+
+
+
+16개의 input 채널과 32개의 output 채널에 3x3 convolutional 레이어가 있다고 가정하겠습니다. 16개의 채널마다 32개의 3x3 커널이 지나가며 512(16*32)개의 feature map이 생성됩니다. 그 다음, 모든 입력 채널에서 1개의 feature map을 병합하여 추가합니다. 32번 반복하면 32개의 output 채널을 얻을 수 있습니다.
+
+같은 예제에서 depthwise separable convolution을 위해 1개의 3x3 커널로 16 채널을 탐색해 16개의 feature map을 생성합니다. 합치기 전에 32개의 1x1 convolution으로 16개의 featuremap을 지나갑니다. 결과적으로 위에선 4068(16*32*3*3) 매개 변수를 얻는 반면 656(16*3*3 + 16*32*1*1) 매개변수를 얻습니다
+
+
+
+
+
 - Depth-wise separable convolution(DepthwiseConv2D)
 
  Inception은 연산량을 줄여 더 깊은 모델을 만들고자 했다고 하면 Xception은 이 모델의 prameter들을 더 효율적으로 사용하기위한 방법을 제시
@@ -599,7 +621,12 @@ Cross-channel correlation과 spatial correlation사이의 분리가 완전히 �
 
 
 - SeperableConv2D
+
 - Pointwise convolution(1x1 convolution)
+
+  공간방향의 convolution은 진행하지 않고, 채널 방향의 convolution을 진행
+
+  
 
 https://eremo2002.tistory.com/68?category=779320
 
@@ -634,6 +661,8 @@ https://hoya012.github.io/blog/deeplearning-classification-guidebook-2/
 https://zzsza.github.io/data/2018/05/25/cs231n-cnn-architectures/
 
 https://datascienceschool.net/notebook/ETC/
+
+https://blog.naver.com/worb1605/221386398035
 
 
 
